@@ -102,7 +102,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer at Continental."
   location         : "Lewes, UK"
-  email            : "granie.guillaume@gmail.com
+  email            : "granie.guillaume@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
