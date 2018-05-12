@@ -1,7 +1,8 @@
+_I'm looking at safety in the automotive sector and giving my thoughts on how it could be improved._
+
 [adas-adoption]: ../images/adas_adoption.png "adas-adoption"
 [isa]: ../images/isa.tiff "isa"
 
-_Abstract: I'm looking at safety in the automotive sector and giving my thoughts on how it could be improved._
 
 ## The Accepted Road Toll 
 
