@@ -70,20 +70,20 @@ Every driver experience skill atrophy along the years. I believe that such a sys
 
 ### Driver Monitoring System (DMS)
 
-With the rise of better infotainment systems and wider screens in our latest cars as well as our constant need to check upon our smartphones, drivers have more and longer inattentiveness periods behind the steering wheel. Each time we take our eyes off the road, we might run over a cyclist, a pedestrian, crash into another car… This behavior is not acceptable and the car should prevent us from doing so. A Driver Monitoring System can detect in which direction the driver is looking and can correlate that with the current speed of the car and the upcoming road trajectory to determine if the driver is focused or not. Drowsiness can also be detected by such a system and a request to stop the car and take a break could be emitted. Finally, most advanced system can evaluate the cognitive load/distraction of the driver. 
+With the rise of better infotainment systems and wider screens in our latest cars as well as our constant need to check upon our smartphones, drivers have more and longer inattentiveness periods behind the steering wheel. Each time we take our eyes off the road, we might run over a cyclist, a pedestrian, crash into another car… This behavior is not acceptable and the car should prevent us from doing so. 
+
+A Driver Monitoring System can detect in which direction the driver is looking and can correlate that with the current speed of the car and the upcoming road trajectory to determine if the driver is focused or not. Drowsiness can also be detected by such a system and a request to stop the car and take a break could be emitted. Finally, most advanced system can evaluate the cognitive load/distraction of the driver. 
 This [page](https://www.vti.se/en/news/vehicle-driver-monitoring-sleepiness-and-cognitive-load/) provides more information regarding how such a system works.
 
-In this [article](https://www.denverpost.com/2017/10/17/distracted-driving-smartphones/) Jennifer Smith says “We all know what’s going on, but we don’t have a breathalyzer for a phone.”.
+In this [article](https://www.denverpost.com/2017/10/17/distracted-driving-smartphones/) Jennifer Smith, who lost her mum to a distracted driver, says “We all know what’s going on, but we don’t have a breathalyzer for a phone.”.
 
 Actually, **we do**.
 
 Have a look at the Car Glance Classification system Lex Fridman built at MIT as part of his class entitled *Deep Learning for Self-Driving Cars*. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ShxbqjnsB8c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <br/>
-
-*Note: This is a custom-made retro-fitted system. It does not exist in commercially available Tesla models.*
+*Note: This is a custom-made retro-fitted system. It does not exist in any commercially available Tesla models.*
 
 The system described in the video detects where the driver is looking. From the date of the video, this quite mature system was already available in August 2016. It seems obvious to me that in the case where the driver is lacking attention such a system coupled with a disincentivizing haptic feedback in the steering wheel, audible warnings as well as visual cues would rapidly bring back his/her focus on the road ahead. 
 
@@ -93,6 +93,7 @@ Finally, after watching this film *From One Second To The Next* from Werner Herz
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_BqFkRwdFZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<br/>
 The National Highway Traffic Safety Administration (NHTSA) estimated that over 10% of road fatalities in the US in 2016 are associated with distracted drivers.
 
 ### Intelligent Speed Assistance (ISA)
