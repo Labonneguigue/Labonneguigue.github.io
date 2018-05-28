@@ -1,3 +1,7 @@
+---
+header:
+    image: ./images/autonocast.png
+---
 
 The podcast from Kirsten Korosec, Alex Roy, and Ed Niedermeyer is an absolute gold mine of information about the emerging Self-Driving Vehicle technology and the "new mobility" solutions.
 
