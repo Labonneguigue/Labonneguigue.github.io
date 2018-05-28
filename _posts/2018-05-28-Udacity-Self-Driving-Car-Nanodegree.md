@@ -4,12 +4,12 @@ header:
     image: ./images/udacity.png
 ---
 
-_I have now completed the nanodegree from Udacity. It was an incredible learning experience. I'll first go through the pros and cons of this program and then I'll list all the projects I had the opportunity to work on._
+_I have now completed the Nanodegree from Udacity. It was an incredible learning experience. I'll first go through the pros and cons of this program and then I'll list all the projects I had the opportunity to work on._
 
 
 ### 👍 Pros
 
-First, I highly appreciated the lessons, I found them thorough and well thought. The instructors made it very easy for me to understand every concept, for example, I couldn't fully understand Kalman Filters out of University but after Sebastian Thrun's lesson I could apply them in several Nanodegree projects but more importantly I could use one at work.
+First, I highly appreciated the lessons, I found them thorough and well thought. The instructors made it very easy for me to understand every concept, for example, I couldn't fully understand Kalman Filters out of University but after Sebastian Thrun's lesson I could apply them in several Nanodegree projects but more importantly, I could use one at work.
 
 On top of the content covered in the lessons, they give some links to more in-depth materials for students to dig even deeper into a particular topic. For each project, plenty of resources are provided (such as purpose-built simulators) which encourage the students to spend more time than is required to make their implementation stand out.
 
@@ -51,13 +51,13 @@ I only needed to record 2 lapses thanks to my ability to augment the collected d
 
 ### ✏️ Project 4 - Advanced Lane Finding
 
-This project is very similar with the first one, the only different is that the approach is more robust and can accommodate for lane curvature. I changed the perspective before trying to detect the lane markings.
+This project is very similar to the first one, the only difference is that the approach is more robust and can accommodate for more pronounced lane curvatures. I changed the perspective before trying to detect the lane markings.
 
 [Description of my project solution.](https://labonneguigue.github.io/CarND-Advanced-Lane-Lines/)
 
 ### ✏️ Project 5 - Vehicle Detection & Tracking
 
-For a self-driving car to operate safely, it needs to know if there are some cars around and where. In this project I trained a Support Vector Machine (SVM) to classify whether a image patch contained a car or not using an Histogram of Oriented Gradients (HOG) descriptor. 
+For a self-driving car to operate safely, it needs to know if there are some cars around and where. In this project, I trained a Support Vector Machine (SVM) to classify whether an image patch contained a car or not using a Histogram of Oriented Gradients (HOG) descriptor. 
 
 [Project details.](https://labonneguigue.github.io/CarND-Vehicle-Detection/)
 
@@ -67,13 +67,13 @@ The second term of this NanoDegree was focused on **Sensor Fusion**, **Control**
 
 ### ✏️ Project 6 - Extended Kalman Filter (EKF)
 
-The Kalman Filters course was a great reminder from University. After the Extended Kalman Filter lesson, I applied one to the Sensor Fusion problem that face AVs. To navigate an uncertain and always evolving environment, AVs must receive data from different sensors types which are complementary to each other. The sensors provide data in different formats and each have their advantages and drawbacks.
+The Kalman Filters course was a great reminder from University. After the Extended Kalman Filter lesson, I applied one to the Sensor Fusion problem that faces AVs. To navigate an uncertain and always evolving environment, AVs must receive data from different sensors types which are complementary to each other. The sensors provide data in different formats and each of them has its advantages and drawbacks.
 
 [Have a look at that project writeup.](https://labonneguigue.github.io/CarND-Extended-Kalman-Filter-Project/)
 
 ### ✏️ Project 7 - Unscented Kalman Filter (UKF)
 
-For this project I was provided with a simulator and some noisy data from 2 different sensors, a LIDAR and a RADAR, of a moving car. My task was to remove the noise from the sensor data using an UKF and give a best estimate of where the car is.
+For this project, I was provided with a simulator and some noisy data from 2 different sensors, a LIDAR and a RADAR, of a moving car. My task was to remove the noise from the sensor data using a UKF and give the best estimate of where the car is.
 
 [More about my implementation of the UKF here.](https://labonneguigue.github.io/CarND-Unscented-Kalman-Filter-Project/)
 
@@ -94,7 +94,7 @@ This very short project is a good reminder for every Software Engineer out there
 
 ### ✏️ Project 11 - Path Planning
 
-For this project Udacity provided us with a simulator where I can control a car on a highway, the goal being to plan a smooth and accident free path with regard to the other cars on the road. The simulator provides data about the surrounding cars as well as data about the map. I build my path planner by assembling together the following 3 essential modules of a Self-Driving Car:
+For this project Udacity provided us with a simulator where I could control a car on a highway, the goal being to plan a smooth and accident-free path with regard to the other cars on the road. The simulator provides data about the surrounding cars as well as data about the map. I build my path planner by assembling together the following 3 essential modules of a Self-Driving Car:
 
 * Behavior Planner
 * Trajectory Generator
@@ -110,11 +110,11 @@ I was happily surprised to see this topic as part of a project. It is, in my opi
 
 ### ✏️ Project 13 - Semantic Segmentation
 
-It is definitely important for a self-driving car to know where is the road. In this project, I trained a Fully Convolutional Neural Network (FCN) to classify each pixels in the image to be labeled `road` or `not road`. [Here is the project](https://labonneguigue.github.io/CarND-Semantic-Segmentation/).
+It is definitely important for a self-driving car to know where is the road. In this project, I trained a Fully Convolutional Neural Network (FCN) to classify each pixel in the image to be labelled `road` or `not road`. [Here is the project](https://labonneguigue.github.io/CarND-Semantic-Segmentation/).
 
 ### ✏️ Project 14 - System Integration
 
-Writeup not ready. 🛠
+Write-up not ready. 🛠
 
 
 
