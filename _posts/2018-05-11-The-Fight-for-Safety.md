@@ -9,7 +9,7 @@ _I'm looking at safety in the automotive sector and giving my thoughts on how it
 [isa]: ../images/isa.tiff "isa"
 
 
-## The Accepted Road Toll 
+## The Accepted Road Toll
 
 1.25 million people are killed on the road each year in the world. With over 100 people dying in a motor vehicle crash per day in the US alone, it is the equivalent of a Boeing 737 falling from the sky **every single day**. This analogy is incredibly striking. The media coverage is nearly nonexistent.
 
@@ -28,7 +28,7 @@ Advanced Driver Assistance Systems (ADAS) are gradually increasing the safety in
 
 ![alt text][adas-adoption]
 
-The first observation is that generally, people have a low awareness that these systems even exist. Advertisement seems insufficient. 
+The first observation is that generally, people have a low awareness that these systems even exist. Advertisement seems insufficient.
 
 This fact might also be due to the naming confusion. This [website](http://howsafeisyourcar.com.au/) lists the different names the same system can have for different car manufacturers. Let's take an example:
 The [Autonomous Emergency Braking (AEB)](http://howsafeisyourcar.com.au/aeb/) functionality warns the driver about an abrupt deceleration of the car ahead which might result in a collision and ultimately takes action autonomously to apply the brakes if the driver does not respond at all or quick enough. Here are a few examples of names some car manufacturers are using to brand their system:
@@ -56,7 +56,7 @@ The responsibility to spread ADAS across the auto market does not entirely fall 
 
 As far as I'm aware, the only 2 mandatory fitting of ADAS in the EU are the following:
 * Electronic Stability Control (ESC) Systems on all vehicles (from 1 Nov 2011 for new types of vehicle and 1 Nov 2014 for all new vehicles)
-* Autonomous Emergency Braking (AEB) and Lane Departure Warning (LDW) Systems on heavy-duty vehicles (from 1 Nov 2013 for new types of vehicle and 1 Nov 2015 for all new vehicles) 
+* Autonomous Emergency Braking (AEB) and Lane Departure Warning (LDW) Systems on heavy-duty vehicles (from 1 Nov 2013 for new types of vehicle and 1 Nov 2015 for all new vehicles)
 
 I believe that the approach is too slow. We have so much technology already available to reduce significantly the number of deaths on the road. Here is a non-exhaustive list of safety systems which I believe **should already be mandatory on all new models.**
 Throughout the rest of the article, I'll often be referring to [this report from the European Road Safety Observatory (ERSO)](https://ec.europa.eu/transport/road_safety/sites/roadsafety/files/ersosynthesis2016-adas15_en.pdf) released in 2016.
@@ -92,22 +92,22 @@ Every driver experience skill atrophy over the years. I believe that such a syst
 
 ### Driver Monitoring System (DMS)
 
-With the rise of better infotainment systems and wider screens in our latest cars as well as our constant need to check our smartphones, drivers have more and longer inattentiveness periods behind the steering wheel. Each time we take our eyes off the road, we might run over a cyclist, a pedestrian, crash into another car… This behavior is not acceptable and the car should prevent us from doing so. 
+With the rise of better infotainment systems and wider screens in our latest cars as well as our constant need to check our smartphones, drivers have more and longer inattentiveness periods behind the steering wheel. Each time we take our eyes off the road, we might run over a cyclist, a pedestrian, crash into another car… This behavior is not acceptable and the car should prevent us from doing so.
 
-A Driver Monitoring System can detect in which direction the driver is looking and can correlate that with the current speed of the car and the upcoming road trajectory to determine if the driver is focused or not. Drowsiness can also be detected by such a system and a request to stop the car and take a break could be emitted. Finally, some advanced system can evaluate the cognitive load/distraction of the driver. 
+A Driver Monitoring System can detect in which direction the driver is looking and can correlate that with the current speed of the car and the upcoming road trajectory to determine if the driver is focused or not. Drowsiness can also be detected by such a system and a request to stop the car and take a break could be emitted. Finally, some advanced system can evaluate the cognitive load/distraction of the driver.
 This [page](https://www.vti.se/en/news/vehicle-driver-monitoring-sleepiness-and-cognitive-load/) provides more information regarding how such a system works.
 
 In this [article](https://www.denverpost.com/2017/10/17/distracted-driving-smartphones/) Jennifer Smith, who lost her mum to a distracted driver, says “We all know what’s going on, but we don’t have a breathalyzer for a phone.”.
 
 Actually, **we do**.
 
-Have a look at the Car Glance Classification system Lex Fridman built at MIT as part of his class entitled *Deep Learning for Self-Driving Cars*. 
+Have a look at the Car Glance Classification system Lex Fridman built at MIT as part of his class entitled *Deep Learning for Self-Driving Cars*.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ShxbqjnsB8c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 *Note: This is a custom-made retro-fitted system. It does not exist in any commercially available Tesla models.*
 
-The system described in the video detects where the driver is looking. From the date of the video, this quite mature system was already available in August 2016. It seems obvious to me that in the case where the driver is lacking attention such a system coupled with a disincentivizing haptic feedback in the steering wheel, audible warnings, as well as visual cues, would rapidly bring back his/her focus on the road ahead. 
+The system described in the video detects where the driver is looking. From the date of the video, this quite mature system was already available in August 2016. It seems obvious to me that in the case where the driver is lacking attention such a system coupled with a disincentivizing haptic feedback in the steering wheel, audible warnings, as well as visual cues, would rapidly bring back his/her focus on the road ahead.
 
 The most compelling argument for incorporating this type of system in our cars is that, again, it continuously teaches the driver how to drive in a safe manner.
 
@@ -140,27 +140,27 @@ These results show that ISA could reduce fatalities by half.
 
 The financial incentive is also very strong since the benefit to cost ratio of mandating ISA on all new cars is around 4. All add up to make a very compelling case for ISA.
 
-Finally, the real difficulty in deploying ISA is the human-machine interface. The system needs to find the right balance between too much intervention which might result in a general disapproval from the public and a major set back for the OEM and his brand and too little intervention which would have no effect on safety. 
+Finally, the real difficulty in deploying ISA is the human-machine interface. The system needs to find the right balance between too much intervention which might result in a general disapproval from the public and a major set back for the OEM and his brand and too little intervention which would have no effect on safety.
 
-Include data from https://www.youtube.com/watch?v=SoZLrZTnUGs 
+Include data from https://www.youtube.com/watch?v=SoZLrZTnUGs
 
 ### Alcohol Interlock System
 
 I kept this one for the end because the technology is not there yet but is very promising.
 
-**<center>« Every year in the U.S., drunk driving claims approximately 
+**<center>« Every year in the U.S., drunk driving claims approximately
 10,000 lives and costs approximately $194 billion. »</center>**
 
 Such as speeding, drunk driving is responsible for about another third of road fatalities.
 
-Nobody should have the right to drive drunk because in most cases, the victim is not the drunk driver. The victim is a pedestrian, a cyclist or another driver. 
+Nobody should have the right to drive drunk because in most cases, the victim is not the drunk driver. The victim is a pedestrian, a cyclist or another driver.
 
 To prevent driving under the influence, the [Driver Alcohol Detection System for Safety (DADSS)](https://www.dadss.org) is working on non-obtrusive methods. The one I prefer is the touch-based system where the alcohol level would be measured using an infrared light sensor when the driver touches the start button.
 
-This method would remove the need to blow into the interlock device and wait about a minute to have permission to turn on the car. It goes without saying that method (only used as after-market device for recidivist drunk drivers) is a no-go. 
+This method would remove the need to blow into the interlock device and wait about a minute to have permission to turn on the car. It goes without saying that method (only used as after-market device for recidivist drunk drivers) is a no-go.
 
 
-## The Self-Driving Cars of Tomorrow? 
+## The Self-Driving Cars of Tomorrow?
 
 Am I losing my time trying to fit ADAS into our cars when we'll have self-driving cars tomorrow?
 
@@ -172,7 +172,7 @@ Previsions forecast 1 billion vehicles on the roads by 2030 and most of them wil
 
 ---
 
-Sources: 
+Sources:
 
 * 📄 [European Road Safety Observatory (ERSO) 2016 Report](https://ec.europa.eu/transport/road_safety/sites/roadsafety/files/ersosynthesis2016-adas15_en.pdf)
 
