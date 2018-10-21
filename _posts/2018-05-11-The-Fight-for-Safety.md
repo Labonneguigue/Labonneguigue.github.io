@@ -92,7 +92,7 @@ Every driver experience skill atrophy over the years. I believe that such a syst
 
 ### Driver Monitoring System (DMS)
 
-With the rise of better infotainment systems and wider screens in our latest cars as well as our constant need to check our smartphones, drivers have more and longer inattentiveness periods behind the steering wheel. Each time we take our eyes off the road, we might run over a cyclist, a pedestrian, crash into another car… This behavior is not acceptable and the car should prevent us from doing so.
+With the rise of better infotainment systems and wider screens in our latest cars as well as our constant need to check our smartphones, drivers have more and longer inattentiveness periods behind the steering wheel. Each time we take our eyes off the road, we might run over a cyclist, a pedestrian, crash into another car… This behaviour is not acceptable and the car should prevent us from doing so.
 
 A Driver Monitoring System can detect in which direction the driver is looking and can correlate that with the current speed of the car and the upcoming road trajectory to determine if the driver is focused or not. Drowsiness can also be detected by such a system and a request to stop the car and take a break could be emitted. Finally, some advanced system can evaluate the cognitive load/distraction of the driver.
 This [page](https://www.vti.se/en/news/vehicle-driver-monitoring-sleepiness-and-cognitive-load/) provides more information regarding how such a system works.

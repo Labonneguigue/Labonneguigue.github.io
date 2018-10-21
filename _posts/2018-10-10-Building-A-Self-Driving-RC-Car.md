@@ -5,7 +5,7 @@ header:
     image: ./images/sakura_outdoor.jpg
 ---
 
-A little while ago, I decided to build my own self driving car. Before going for the regular human sized car, I wanted to make sure I was able to achieve it on a small scale version, hence the RC Car choice. I going to share with you how I managed to do that.
+A little while ago, I decided to build my own self-driving car. Before going for the regular human-sized car, I wanted to make sure I was able to achieve it on a small scale version, hence the RC Car choice. I going to share with you how I managed to do that.
 
 ## Hardware Assembly
 
@@ -21,11 +21,11 @@ I decided to invest into some robust and reliable pieces of hardware. I was insp
 
 ### Battery
 
-I chose a LiPo battery for its good energy density and voltage dropoff curve. One disadvantage with LiPo batteries is that if their voltage drop bellow a certain level it is not possible to charge them again afterwards. As a result I bought this cheap voltage checker which beeps very loudly when it's time for a charge.
+I chose a LiPo battery for its good energy density and voltage dropoff curve. One disadvantage with LiPo batteries is that if their voltage drop below a certain level it is not possible to charge them again afterwards. As a result, I bought this cheap voltage checker which beeps very loudly when it's time for a charge.
 
 ### Motor and ESC
 
-I chose a motor used for RC car racing because I wanted to be able to play with the speed my self-driving car and see how fast I could make it go.
+I chose a motor used for RC car racing because I wanted to be able to play with the speed of my self-driving car and see how fast I could make it go.
 
 ![alt text](../images/motor.jpg)
 
@@ -48,11 +48,11 @@ The steering servo and the ESC (throttle motor) are controlled by PWM [Pulse Wid
 
 In practice, each time the signal needs to be flipped, an interruption is triggered. Because the Raspberry Pi is running Linux (Raspbian), it is not really good at handling hardware triggered interruptions. The traditional ISR (Interrupt Service Routine) usually used on an Arduino board would be quite tricky to use on the Pi.
 
-Fortunately boards like the PCA9685 are very cheap and very efficient at generating a nice PWM. As a result, the Raspberry Pi sends the required duty cycle to the PCA9685 board using an I2C communication and the later takes on the task a scheduling the PWM correctly.
+Fortunately, boards like the PCA9685 are very cheap and very efficient at generating a nice PWM. As a result, the Raspberry Pi sends the required duty cycle to the PCA9685 board using an I2C communication and the later takes on the task a scheduling the PWM correctly.
 
 ![alt text](../images/PCA9685.jpg)
 
-Due to how the servo is placed onto the car the steering response is not linear to the command. I had to calibrate the car to find its dead straight steering signal and then I divided the both sides, left and right, to have a linear response relative to their maximums.
+Due to how the servo is placed onto the car the steering response is not linear to the command. I had to calibrate the car to find its dead straight steering signal and then I divided both sides, left and right, to have a linear response relative to their maximums.
 
 Finally, thanks to a colleague who let me use the tools from Continental's car workshop, I cut the transparent plastic surface and placed the components on top. I screwed some and used some velcro for others (like the Raspberry Pi) so I could unmount them from the car when needed.
 
@@ -64,12 +64,12 @@ The last component is the wide angle camera. It provides a wide 175° degrees fi
 
 ## Code
 
-In terms of code I did not started from scratch. I forked the [donkey](https://github.com/wroscoe/donkey) repository which provided a lot of functionalities like interfacing with a PS3 controller, creating a webserver to control the car, saving the images with the normalised steering and throttle commands, and more. It took some time to adapt it to my needs.
+In terms of code, I did not start from scratch. I forked the [donkey](https://github.com/wroscoe/donkey) repository which provided a lot of functionalities like interfacing with a PS3 controller, creating a web server to control the car, saving the images with the normalised steering and throttle commands, and more. It took some time to adapt it to my needs.
 
 ### Neural Network Training
 
 The idea behind this project is to teach the car how to drive. The first step is therefore for a human to drive the car around a track. The track can be made of anything, in any environment. The only thing you need to be consistent between the different tracks is some line on the side.
-As the human driver steers the car around the track using a PS3 Sixasis controller, images from the camera are recorded and stored with the corresponding steering and throttle applied.
+As the human driver steers the car around the track using a PS3 Sixaxis controller, images from the camera are recorded and stored with the corresponding steering and throttle applied.
 
 Example:
 
@@ -128,13 +128,13 @@ If we take a closer look at the data, here is an example of the distribution in 
 
 If we train the neural network with this data, the car will tend to always mostly straight and a little bit to the right. The network would have learned the prior knowledge that the response would most probably be straight of right.
 
-The thing I did was to randomly flip the image horizontally and well as changing the sign the associated steering command with a probability `0.5`. The distribution become balanced between left and right.
+The thing I did was to randomly flip the image horizontally and well as changing the sign the associated steering command with a probability `0.5`. The distribution becomes balanced between left and right.
 
 ![alt text](../images/balanced_histogram.png)
 
 ### Camera Calibration
 
-I contributed back to project by providing a method for calibrating the camera people use on their car. It can be any kind on camera (wide angle or not). It uses opencv.
+I contributed back to the project by providing a method for calibrating the camera people use in their car. It can be any kind on camera (wide angle or not). It uses OpenCV.
 
 ### Developments
 
@@ -148,7 +148,7 @@ Here is a video of the very first laps it did by itself.
 
 ### Neural Network Visualisation
 
-It seems like this neural network is little bit like black magic but it really isn't. What we can do is look at the internal activations at the same time as inference is happening to see what is causing the output.
+At first sight, it appears as this neural network is a little bit like black magic but it really isn't. What we can do is look at the internal activations at the same time as the inference is happening to see what is causing the output.
 
 By performing a deconvolution of the neural network after giving a sample image as input, the areas of activation can be stacked up into an image. It is also called the _saliency map_. Here is the resulting image with the saliency map merged in the input image.
 
