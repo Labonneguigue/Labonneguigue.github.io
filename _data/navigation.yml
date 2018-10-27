@@ -24,6 +24,12 @@ repos_readme:
     url: https://labonneguigue.github.io/CarND-Behavioral-Cloning/
   - title: "Lane Line Detection"
     url: https://labonneguigue.github.io/CarND-Advanced-Lane-Lines/
+  - title: "Unscented Kalman Filter"
+    url: https://labonneguigue.github.io/CarND-Unscented-Kalman-Filter-Project/
+  - title: "PID Control"
+    url: https://labonneguigue.github.io/CarND-PID-Control-Project/
+  - title: "Semantic Segmentation"
+    url: https://labonneguigue.github.io/CarND-Semantic-Segmentation/
 
   # - title:
   #   url:
