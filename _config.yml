@@ -35,7 +35,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 7 # 7 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -259,7 +259,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      #type: posts
     values:
       layout: single
       author_profile: true

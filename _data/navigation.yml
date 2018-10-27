@@ -12,3 +12,18 @@ main:
   #   url: /sitemap/
    - title: "Posts"
      url: /posts/
+   - title: "Repositories"
+     url: /repos/
+
+repos_readme:
+  - title: "Machine Learning Course - Columbia University (EdX)"
+    url: https://labonneguigue.github.io/Machine-Learning/
+  - title: "Traffic Sign Classifier"
+    url: https://labonneguigue.github.io/CarND-Traffic-Sign-Classifier-Project/
+  - title: "Convolutional Neural Network - Behaviorial Cloning"
+    url: https://labonneguigue.github.io/CarND-Behavioral-Cloning/
+  - title: "Lane Line Detection"
+    url: https://labonneguigue.github.io/CarND-Advanced-Lane-Lines/
+
+  # - title:
+  #   url:
